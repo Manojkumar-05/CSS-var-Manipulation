@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+:root{
+    --base: #ffc600 ;
+    --spacing: 10px ;
+    --blur: 10px;
+    --rotate: rotate(0deg);
+}
+
+body{
+    text-align: center;
+    background: #193549;
+    color: #ffff;
+    letter-spacing: .1rem;
+    font-family: 'Quicksand';
+
+}
+.cont{
+    margin-top: 30px;
+}
+img{
+    width: 300px;
+    margin: 30px;
+    background: var(--base);
+    filter: blur(var(--blur));
+    padding:var(--spacing);
+    transform: var(--rotate)
+}
+h1 span{
+    color: var(--base);
+}
